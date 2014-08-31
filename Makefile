@@ -3,7 +3,7 @@ CC=gcc
 CFLAGS=-I$(IDIR)  -Wall -g
 #CFLAGS+= `pkg-config --cflags --libs glib-2.0`  -lgcrypt
 
-ODIR=obj
+ODIR=.
 LDIR =./lib
 
 _DEPS = my_rand.h 

@@ -8,7 +8,7 @@
 int print_array(unsigned char* buf, unsigned len) {
 	int i = 0;
 	for(i = 0; i < len; ++i){
-		fprintf(stderr, "%02x", buf[i]);
+		fprintf(stderr, "%02x ", buf[i]);
 	}
 	fprintf(stderr, "\n");
 	return 0;
